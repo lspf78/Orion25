@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <body>
+        <div id="myPlot" style="width:100%;max-width:700px"></div>
+        <form>
+            <label for= "set-budget">Set a budget:</label>
+            <input type = "number" name = "set-budget" min="0" max="1000" id= "set-budget" value="100" step = "10"><br><br>
+            <label for="budget">Spent</label>
+            <input type="number" id="budget" name="budget" min="0" max="1000" value="100" step = "10">
+        </form>
+        <br>
+        <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+        <script>
+const x = ["Groceries", "Entertainment", "Bills", "Shopping", "Eating out", "Gifts"];
+const y = [55, 49, 44, 24, 15];
+
+const layout = {title:"Categories"};
+
+const data = [{labels:x, values:y, type:"pie"}];
+
+Plotly.newPlot("myPlot", data, layout);
+            </script>
+    </body>
+</html>
