@@ -1,1 +1,20 @@
-
+body {
+    background-image: url("https://nathaka82.github.io/Prog-Black-Formative-Groupwork/images/chevron.png");
+    margin: 25px 50px;
+}
+.stylehead {
+    background-image: url("https://nathaka82.github.io/Prog-Black-Formative-Groupwork/images/folk-pattern.png");
+}
+.content {
+    background-image: url("https://nathaka82.github.io/Prog-Black-Formative-Groupwork/images/footer_lodyas.png");
+    color: #C0C0C0;
+}
+.header {
+    margin: 25px 100px
+}
+.indent {
+    margin: 25px 50px
+}
+p {
+    margin: 0px 25px
+}
